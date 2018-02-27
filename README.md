@@ -36,7 +36,7 @@
 ## Run scripts for authors collects
 
 <ul>
-    <li> cd Bureau && mkdir resultatRimel</li>
+    <li>mkdir resultatRimel && cd resultatRimel</li>
     <li>git clone https://github.com/bnjmn/weka.git</li>
     <li>git clone https://github.com/scikit-learn/scikit-learn.git</li>
     <li>sudo python3 parcoursfiles.py <path_to_desired_tree_height> <lib_name> </li>
