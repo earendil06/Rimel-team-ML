@@ -23,3 +23,13 @@
   <li>Follow the link provided at the end of the analysis to browse your project's quality in SonarQube UI</li>
 </ul>
 
+## Run scripts for namming experience
+
+<ul>
+    <li>mkdir experiences && cd experiences</li>
+    <li>git clone https://github.com/bnjmn/weka.git</li>
+    <li>git clone https://github.com/scikit-learn/scikit-learn.git</li>
+    <li>python3 retrieve_init_scikit.py</li>
+    <li>python3 match_weka_scikit.py</li>
+</ul>
+
