@@ -19,7 +19,7 @@ print("Rootdir = " + rootdir)
 #dirs = list of string naming any sub-directories present in the working directory
 #files = list of files present in the workin directory
 secondary_dir = "~/Bureau/SECONDARY"
-lib_name = "Weka"
+lib_name = $2
 most_common_author_file = "most_commons_author.txt"
 regexp = re.compile("([@|#]\s?[a|A]uthors?:?)(.*?)([-|<|(].*)")
 
