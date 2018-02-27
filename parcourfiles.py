@@ -4,7 +4,7 @@ import os, sys, re
 from collections import Counter
 from shutil import copyfile
 
-rootdir = '/home/ringo'
+rootdir = '~'
 forbidden_extension = ('.jar')
 #Prend le chemin passé en paramètre comme racine
 #'/home/ringo/Bureau/rimel/weka/src/main/java/weka'
@@ -12,13 +12,13 @@ forbidden_extension = ('.jar')
 if len(sys.argv) > 1 :
 	rootdir = sys.argv[1]
 else :
-	rootdir = '/home/ringo/Bureau/rimel/weka/src/main/java/weka'
+	rootdir = '~/Bureau/rimel/weka/src/main/java/weka'
 print("Rootdir = " + rootdir)
 
 #subdir = the working direcory
 #dirs = list of string naming any sub-directories present in the working directory
 #files = list of files present in the workin directory
-secondary_dir = "/home/ringo/Bureau/SECONDARY"
+secondary_dir = "~/Bureau/SECONDARY"
 lib_name = "Weka"
 most_common_author_file = "most_commons_author.txt"
 regexp = re.compile("([@|#]\s?[a|A]uthors?:?)(.*?)([-|<|(].*)")
@@ -129,7 +129,7 @@ print("########################")
 print("#EVALUATING SPECIALISTS#")
 print("########################")
 
-res_dir = "/home/ringo/Bureau/resultatRIMEL"
+res_dir = "~/Bureau/resultatRIMEL"
 non_spe = open(res_dir + "/" + "NonSpecialiste"+ lib_name +".txt","w")
 spe =  open(res_dir + "/" + "Specialiste" + lib_name + ".txt","w")
 
@@ -186,7 +186,7 @@ non_spe.close()
 print("##############################")
 print("##SEARCHING  FOR SPECIALISTS##")
 print("##############################")
-new_root = "/home/ringo/Bureau/SECONDARY"
+
 
 non_spe = open(res_dir + "/" + "NonSpecialiste"+ lib_name + ".txt" ,"r")
 spe =  open(res_dir + "/" + "Specialiste" + lib_name + ".txt","w")
