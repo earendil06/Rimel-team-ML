@@ -20,7 +20,6 @@
   </ul>
 </li>
   <li>usage: sonar-scanner</li>
-  
-  
+  <li>Follow the link provided at the end of the analysis to browse your project's quality in SonarQube UI</li>
 </ul>
 
