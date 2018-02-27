@@ -1,4 +1,12 @@
 # Rimel-team-ML
+## author:
+
+<ul>
+    <li>FUSCO Anthony</li>
+    <li>BELHASSEN Issam</li>
+    <li>PASTOR Florent</li>
+    <li>LEFEBVRE Jeremy</li>
+</ul>
 
 ## Install and use SonarQube
 
