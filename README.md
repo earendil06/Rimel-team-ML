@@ -1,12 +1,4 @@
 # Rimel-team-ML
-## author:
-
-<ul>
-    <li>FUSCO Anthony</li>
-    <li>BELHASSEN Issam</li>
-    <li>PASTOR Florent</li>
-    <li>LEFEBVRE Jeremy</li>
-</ul>
 
 ## Install and use SonarQube
 
@@ -40,4 +32,15 @@
     <li>python3 retrieve_init_scikit.py</li>
     <li>python3 match_weka_scikit.py</li>
 </ul>
+
+## Run scripts for authors collects
+
+<ul>
+    <li> cd Bureau && mkdir resultatRimel</li>
+    <li>git clone https://github.com/bnjmn/weka.git</li>
+    <li>git clone https://github.com/scikit-learn/scikit-learn.git</li>
+    <li>sudo python3 parcoursfiles.py <path_to_desired_tree_height> <lib_name> </li>
+</ul>
+        
+        The text files are in the resultatRimel directory. Due to a connection concern, this script creates a tree structure identical to the targeted library one and keeps only the names of authors as text. The script must be run with SUDO because it creates folders and files on the machine.
 
